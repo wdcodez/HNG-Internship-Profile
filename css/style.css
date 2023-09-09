@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Wallpoet&display=swap');
+
+/* RESET */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	width: 300px;
+	height: auto;
+}
+
+/* END OF RESET */
+
+/* 
+head {
+	font-family: 'Wallpoet', cursive;
+}
+
+body {
+	font-family: 'Rajdhani', sans-serif;
+} */
+
+/* MAIN SECTION  */
+body {
+	background-color: #333;
+	min-height: 100vh;
+	background-image: url('/img/parrish-freeman-K2W8TIxcuko-unsplash\ \(1\).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 5px;
+	background-color: #87cfeb7e;
+	border-bottom: 4px solid #000;
+}
+
+.body__header-p {
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Wallpoet', cursive;
+}
+
+.main {
+	background-image: url('/img/parrish-freeman-K2W8TIxcuko-unsplash\ \(1\).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+figure {
+	margin-top: 12vh;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 15px 15px;
+	border: 5px solid #87ceeb;
+	box-shadow: 0 0 5px 5px #000;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+figure img {
+	border-radius: 50%;
+	border: 5px double #000;
+	padding: 3px;
+}
+
+figure p,
+figcaption {
+	color: whitesmoke;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+figcaption {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.profile-details {
+	background-color: #000000ca;
+	padding: 10px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.profile-details p {
+	color: skyblue;
+}
+
+.track {
+	font-family: 'Wallpoet', cursive;
+}
+
+:any-link {
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: red;
+	text-shadow: #fff 1px 1px 2px;
+}
+
+a:hover {
+	font-size: 1.2rem;
+	color: #000;
+	font-family: 'Wallpoet', cursive;
+	text-decoration: none;
+	background-color: skyblue;
+	letter-spacing: 2px;
+}
